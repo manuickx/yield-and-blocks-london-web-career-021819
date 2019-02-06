@@ -11,7 +11,7 @@ def hello_t(array)
   end  
 end
 
-names = ["Tim", "Tom", "Jim"]
+
 
 hello_t(names) do |name| puts name
 end
