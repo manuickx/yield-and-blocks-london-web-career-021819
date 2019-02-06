@@ -4,11 +4,10 @@ def hello_t(array)
     yield
     i=i+1
   end
+return array
 end
 
 names = ["Tim", "Tom", "Jim"]
 
 hello_t(names) do |name| puts "#{name}"
-end
-return names
 end
