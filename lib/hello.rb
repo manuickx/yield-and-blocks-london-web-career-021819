@@ -9,5 +9,5 @@ end
 names = ["Tim", "Tom", "Jim"]
 
 hello_t(names) do |name| puts "#{name}"
-reutrn names
+return names
 end
