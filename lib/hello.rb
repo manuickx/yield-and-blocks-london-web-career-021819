@@ -9,5 +9,5 @@ end
 
 names = ["Tim", "Tom", "Jim"]
 
-hello_t(names).each do |name| puts "#{name}"
+hello_t.collect do |name| puts "#{name}"
 end
