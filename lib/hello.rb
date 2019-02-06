@@ -13,5 +13,5 @@ end
 
 
 
-hello_t(names) do |name| puts name
+hello_t(["Tim", "Tom", "Jim"]) do |name| puts name
 end
